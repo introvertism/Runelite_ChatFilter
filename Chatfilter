@@ -105,7 +105,7 @@ trade.*?accepted.*?with.*?for
 (?# Spirit Shields)
 (?i)(buy(in(g)?)?(\s+all)?)\s+?((arcane|ely(sian)?|spectral)\s?(spirit\s?shield)?)\s?((i\swill\spay|,)?([\d\.]{2,}[kmb](il)?|max\s?(cash|stack|gp)))?
 (?# Nightmare orbs/staffs)
-(?i)(buy(in(g)?)?(\s+all)?)\s+?((volatile|harm(oni(s|z)+ed)?|eldritch)?\s?(orb|staff)?)\s?((i\swill\spay|,)?([\d\.]{2,}[kmb](il)?|max\s?(cash|stack|gp)))?
+(?i)(buy(in(g)?)?(\s+all)?)\s+(volatile\s?orb|harmonized\s?orb|eldritch\s?orb|volatile\s?staff|harmonized\s?staff|eldritch\s?staff)\s?((i\swill\spay|,)?([\d\.]{2,}[kmb](il)?|max\s?(cash|stack|gp)))?
 (?# Third age items)
 (?i)(buy(in(g)?)?(\s+all)?)\s+?((thi|3)+rd\s?age\s?(item(s?)?)?)\s?((i\swill\spay|,)?([\d\.]{2,}[kmb](il)?|max\s?(cash|stack|gp)))?
 (?# Voidwaker)
