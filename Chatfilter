@@ -87,7 +87,7 @@ trade.*?accepted.*?with.*?for
 
 (?# Buying specific items)
 (?# Armour sets)
-(?i)(buy(in(g)?)?(\s+all)?)\s+?(masori|torva|bandos|arma(dyl)?|anc(estral)?|inquis(itor(s)?))\s?(set|items|parts|plate\s(body|legs|)?|helm|hat|(any\s)?p(ie|ea)ces)?\s?((i\swill\spay|,)?([\d.]+{2,}[kmb](il)?|max\s?(cash|stack|gp)))?
+(?i)(buy(in(g)?)?(\s+all)?)\s+?(masori|torva|elder|twisted|bandos|arma(dyl)?|anc(estral)?|inquis(itor(s)?))\s?(set|items|bow|maul|parts|plate\s(body|legs|)?|helm|hat|(any\s)?p(ie|ea)ces)?\s?((i\swill\spay|,)?([\d.]+{2,}[kmb](il)?|max\s?(cash|stack|gp)))?
 (#? Kodai wand)
 (?i)(buy(in(g)?)?(\s+all)?)\s+?(kodai(\s?wand)?)\s?((i\swill\spay|,)?([\d.]+{2,}[kmb](il)?|max\s?(cash|stack|gp)))?
 (?# Scythe)
