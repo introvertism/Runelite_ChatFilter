@@ -213,6 +213,10 @@ trade.*?accepted.*?with.*?for
 (?i).*?07market.*
 (?i).*?rsgoods.*
 (?i).*ban( )?rate.*
+(?i).*x2.*Slots.*win.*
+(?i).*report lurers:.*
+(?i).*anti( |)lure his alt
+(?i)you can not anti scam.*
 (?i)warning.*?is.*?a.*?hacker.*?do.*?not.*?add.*?him
 (?i).*?will.*?try.*?send.*?you.*?virus.*?over.*?discord
 (?i).*?show.*?me.*?over.*?100m.*?in.*?items.*?
