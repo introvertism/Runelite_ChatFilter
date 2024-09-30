@@ -237,7 +237,7 @@ trade.*?accepted.*?with.*?for
 (?i).*?v(1|i)ru(s|$).*?(0|o)ver.*?(pm|disc(ord)?)*?
 (?i).*sell me (ur|your) 3rd age.*left to spend.*
 (?i).*avoid ge tax (and |)sell me (your|ur) stuff.*
-(?i)^2b for(\?|)$
+(?i)^2b for(\?|| \?)$
 (?i)\!f.*x2.*min.*max.*
 
 (?# Miscellaneous)
