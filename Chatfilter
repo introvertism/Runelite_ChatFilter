@@ -208,6 +208,7 @@ trade.*?accepted.*?with.*?for
 (?i)Infernalmarket
 (?i)instagp
 (?i)flashgp
+(?i)sandcasino
 (?i)op( |)hall
 (?i)op( |)duel
 (?i)\bpeng(r)?(s)?\b
