@@ -184,6 +184,8 @@ trade.*?accepted.*?with.*?for
 
 (?# Specific adverts)
 (?i)partypetegp
+(?i)retrokingdom
+(?i)bulwark7
 (?i)infernocape.com
 (?i)'C0M
 (?i)ms99gp
@@ -225,7 +227,8 @@ trade.*?accepted.*?with.*?for
 (?i).*?rsgoods.*
 (?i).*ban( )?rate.*
 (?i).*x2.*Slots.*win.*
-(?i).*report lurers:.*
+(?i).*report lurers .*
+(?i).*report scammers .*
 (?i).*aware of lure.*?
 (?i).*anti( |)lure his alt
 (?i)you can not anti scam.*
