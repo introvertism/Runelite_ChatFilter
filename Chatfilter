@@ -260,6 +260,21 @@ trade.*?accepted.*?with.*?for
 (?i)lure rich players into pvp
 (?i)^2b for(\?|| \?)$
 (?i)\!f.*x2.*min.*max.*
+(?i).*?discord\.gg.*?*C\s*H\s*E\s*A\s*P\s*.*
+(?i).*?discord\.gg.*?Gold.*
+(?i).*?discord\.gg.*?cheap.*
+(?i).*?discord\.gg.*?payment.*
+(?i).*?discord\.gg.*?torva.*
+(?i).*banrate.*
+(?i)Discord··gg
+(?i)^.*\[.+\] is a known (scamm|lur)er
+(?i)beware of (scammers|lurers)
+(?i)legacygp
+(?i)per.*?vote.*?offer!
+(?i)report (scammers|lurers)
+(?i)rushgp
+(?i)ultragp
+(?i)zoomgp
 
 (?# Miscellaneous)
 (?i)s\s*e\s*l\s*l\s*r\s*s\s*0\s*7
@@ -274,4 +289,4 @@ trade.*?accepted.*?with.*?for
 [âêîôûÂÊÎÔÛ]
 [ãñõÃÑØøÕ]
 [äëïöüÿÄËÏÖÜŸ]
-[ÐæÆœŒçÇß«»°]
+[ÐæÆœŒçÇß«»°·]
