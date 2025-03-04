@@ -281,6 +281,8 @@ trade.*?accepted.*?with.*?for
 (?i)rushgp
 (?i)ultragp
 (?i)zoomgp
+(?i)Luxosgp
+(?i)arenagp
 
 (?# Miscellaneous)
 (?i)s\s*e\s*l\s*l\s*r\s*s\s*0\s*7
