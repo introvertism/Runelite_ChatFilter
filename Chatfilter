@@ -70,8 +70,8 @@ trade.*?accepted.*?with.*?for
 (?i)se[l1][l1]i?n?g?\s?\s?g\s?[o0]\s?[l1]\s?d
 (?i)se11 g01d & a\(\(.*?1oook\s?\/\s?o\.\d.?u.?s.?d
 (?i)show.*?wealth
-(?i)(buy|buying) (tbow|\wtumeken) \d([mb]|)
-(?i)\d+\s*\%\s+(above|more)
+(?i)(wtb|buy|buying|looking for) (tbow|\wtumeken|ely),? \d([mb]|)
+(?i)\d+\s*\%\s+(over|above|more)
 (?i)can\s+pay\s+up\s+to\s+[\d\.]+[mb]
 (?i)to\s+me\s+for\s+[\d\.]+[mb]
 (?i)sell\s+me\s+[\w\s]+for\s+[\d\.]+[mb]\s+quick
@@ -86,6 +86,11 @@ trade.*?accepted.*?with.*?for
 (?i)on\s+your\s+hands\?.*sell\s+it\s+to\s+me.*quick\s+cash
 (?i)buying\s+\w+.*\d+\s*[mb].*paying\s+more\s+than\s+average\s+market\s+rate
 (?i)buying\s+\w+.*for\s+\d+\s*[mb].*best\s+offer.*get
+(?i)Giveaway.*?m per player.*?
+(?i)tumeken.*?who(\'?).*?sellin
+(?i)tumeken.*?let(\'?)s trade
+(?i)Buying rares.*?serious buyer
+(?i)Paying.*?valuable gear
 
 (?# Buying specific items)
 (?# Armour sets)
