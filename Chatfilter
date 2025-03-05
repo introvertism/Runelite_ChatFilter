@@ -283,6 +283,8 @@ trade.*?accepted.*?with.*?for
 (?i)zoomgp
 (?i)Luxosgp
 (?i)arenagp
+(?i)cash or token
+(?i)bournos
 
 (?# Miscellaneous)
 (?i)s\s*e\s*l\s*l\s*r\s*s\s*0\s*7
