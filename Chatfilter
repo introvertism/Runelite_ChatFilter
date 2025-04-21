@@ -1,5 +1,5 @@
 (?# Donations and begging)
-(?i)(can|need|could|please).*?someone.*?donate
+(?i)(can|need|could|please)?.*?(someone|anyone).*?donate
 (?i)^i need (gp|gold|money|items?) ?(please|pl(s|z))
 (?i)(?<!not )\b(accepting|taking)\b( all\b| unwanted\b)?\b(donations?\b|junk\b)
 (?i)any\s(1|one) (spare |help with )((a )?(g(\sp|old)|money|items?|bond)|some junk)
@@ -62,6 +62,10 @@ trade.*?accepted.*?with.*?for
 (?i)doubling gp or items \d+\s?[gkm] left
 (?i)i do (1|one) trade (doubl|tripl)(e|ing)
 (?i)i'?ll (doubl|tripl)e your \d+\s?[gkm]
+(?i)report (scammers|lurers)
+(?i)beware of (scammers|lurers)
+(?i).*?(is|are).*?(a )?known (scammer|lurer)(s)?
+(?i)(i saw you|is a known|asks you to).*?(scam(mer)?|lure(r)?)
 
 (?# Trading and selling)
 (?i)^trading up .*?
@@ -190,11 +194,20 @@ trade.*?accepted.*?with.*?for
 (?i)s[\s\.,]+c[\s\.,]+a[\s\.,]+m
 (?i)a[\s\.,]+v[\s\.,]+o[\s\.,]+i[\s\.,]+d
 (?i)s[\s\.,]+a[\s\.,]+f[\s\.,]+e
-(?i)a[\s\.,]+v[\s\.,]+o[\s\.,]+i[\s\.,]+d
 (?i)(\$\s*\d+)?[\,\.]\d+\s+(per\s+)?mil
 
 (?# Specific adverts)
 (?i)ste(ll|\|\||ii)apog
+(?i).*?discord\.gg.*?gold.*
+(?i).*?discord\.gg.*?customers.*
+(?i).*?discord\.gg.*?reviews.*
+(?i).*?discord\.gg.*?torva.*
+(?i).*?discord\.gg.*?*C\s*H\s*E\s*A\s*P\s*.*
+(?i).*?discord\.gg.*?cheap.*
+(?i).*?discord\.gg.*?payment.*
+(?i).*?07market.*
+(?i).*?rsgoods.*
+(?i).*banrate.*
 (?i)partypetegp
 (?i)retrokingdom
 (?i)bulwark7
@@ -230,15 +243,10 @@ trade.*?accepted.*?with.*?for
 (?i)\bpeng(r)?(s)?\b
 (?i)\b(i|l)nferno(-| ?)cape C ?(O|0) ?M\b
 (?i)(i|l)ceart(00|OO)7
-(?i).*?discord\.gg.*?gold.*
-(?i).*?discord\.gg.*?customers.*
-(?i).*?discord\.gg.*?reviews.*
 (?i).*?discord.*gg.*ophall
 (?i).*?discord.*gg.*rsmill
 (?i).*?discord\.gg.*?gp.*
 (?i).*?discord.*iceart
-(?i).*?07market.*
-(?i).*?rsgoods.*
 (?i).*ban( )?rate.*
 (?i).*x2.*Slots.*win.*
 (?i).*report lurers .*
@@ -272,18 +280,10 @@ trade.*?accepted.*?with.*?for
 (?i)lure rich players into pvp
 (?i)^2b for(\?|| \?)$
 (?i)\!f.*x2.*min.*max.*
-(?i).*?discord\.gg.*?*C\s*H\s*E\s*A\s*P\s*.*
-(?i).*?discord\.gg.*?Gold.*
-(?i).*?discord\.gg.*?cheap.*
-(?i).*?discord\.gg.*?payment.*
-(?i).*?discord\.gg.*?torva.*
-(?i).*banrate.*
 (?i)Discord··gg
 (?i)^.*\[.+\] is a known (scamm|lur)er
-(?i)beware of (scammers|lurers)
 (?i)legacygp
 (?i)per.*?vote.*?offer!
-(?i)report (scammers|lurers)
 (?i)rushgp
 (?i)ultragp
 (?i)zoomgp
@@ -291,9 +291,10 @@ trade.*?accepted.*?with.*?for
 (?i)arenagp
 (?i)cash or token
 (?i)bournos
+(?i)pengservices
+
 
 (?# Miscellaneous)
-(?i)s\s*e\s*l\s*l\s*r\s*s\s*0\s*7
 (?i)[0-9\.](.*?\/.*?)?u\ss\sd\s?\/\s?m
 \d\d:\d\d:\d\d
 \d:\d:\d
