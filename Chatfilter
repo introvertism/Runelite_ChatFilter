@@ -293,6 +293,7 @@ trade.*?accepted.*?with.*?for
 (?i)cash or token
 (?i)bournos
 (?i)pengservices
+(?i)martyos
 
 
 (?# Miscellaneous)
