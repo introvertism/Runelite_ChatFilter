@@ -123,6 +123,12 @@ trade.*?accepted.*?with.*?for
 (?i)(buy(in(g)?)?(\s+all)?)\s+?((thi|3)+rd\s?age\s?(item(s?)?)?)\s?((i\swill\spay|,)?([\d\.]{2,}[kmb](il)?|max\s?(cash|stack|gp)))?
 (?# Voidwaker)
 (?i)(buy(in(g)?)?(\s+all)?)\s+?(voidwaker\s?(blade|hilt|gem)?)\s?((i\swill\spay|,)?([\d\.]{2,}[kmb](il)?|max\s?(cash|stack|gp)))?
+(?i)(Ely|tumeken|tbow|twisted bow|twisted).*?buyer.*?paying fair.*
+(?i)Serious buyer.*?(Ely|tumeken|tbow|twisted bow|twisted).*
+(?i)Need (Ely|tumeken|tbow|twisted bow|twisted).*?cash.*
+(?i)(Ely|tumeken|tbow|twisted bow|twisted).*?quick.*?trade
+(?i)(Ely|tumeken|tbow|twisted bow|twisted).*?(buy|buyer|sell|seller).*?ready.*
+(?i)valuable gear.*?junk.*
 
 (?# Giveaways and events)
 (?i)quitting? .*? giving \d+ percent.*? (1|one) trade
