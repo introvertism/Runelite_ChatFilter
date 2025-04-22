@@ -196,6 +196,11 @@ trade.*?accepted.*?with.*?for
 (?i)a[\s\.,]+v[\s\.,]+o[\s\.,]+i[\s\.,]+d
 (?i)s[\s\.,]+a[\s\.,]+f[\s\.,]+e
 (?i)(\$\s*\d+)?[\,\.]\d+\s+(per\s+)?mil
+(?i)rated.*?gold.*?shop.*
+(?i)help.*?on.*?(Quiver|torva|inferno).*?we.*?
+(?i)on.*?gold.*?rates.*
+(?i)positive reviews.*?customers.*?
+
 
 (?# Specific adverts)
 (?i)ste(ll|\|\||ii)apog
