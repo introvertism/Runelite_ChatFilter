@@ -179,6 +179,7 @@ trade.*?accepted.*?with.*?for
 (?i)win \d+\s?[gkm].*?search on youtube
 (?i)join ([\[\({])?discord.*?(gamble today|flower games)
 (?i)commission staking.*?discord
+(?i)drop party.*?kick
 (?i)staking.*?blackjack.*?dicing.*?discord
 (?i)giveaway.*?search (on )?y[o0]utube
 (?i)^(?=.*youtube)\d*[kmb].*?giveaway
@@ -300,6 +301,7 @@ trade.*?accepted.*?with.*?for
 (?i)pengservices
 (?i)martyos
 (?i)flygp
+(?i)scapehub
 
 
 (?# Miscellaneous)
