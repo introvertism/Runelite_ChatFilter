@@ -10,6 +10,7 @@
 (?i)need free (g(\sp|old)|money|items?)
 (?i)please need \d+\s?[gkm]( i'?m new)?
 
+
 (?# Gambling and begging)
 (?i)want to bet.*? (gold|gp|coins|money)
 c\s?[o0]\s?m.*?bet g(\s?p|old)
@@ -52,6 +53,7 @@ trade.*?accepted.*?with.*?for
 (?i).*?\{\}.*?casino
 (?i).*?\{\}.*?(\d+[gkmb].*?\d+[gkmb])
 
+
 (?# Doubling money and scams)
 (?i)^(doubl|tripl)ing\s?(g(\s?p|old)|money|items?)?$
 (?i)(2|two|too?) trade (doubl|tripl)ing
@@ -66,6 +68,7 @@ trade.*?accepted.*?with.*?for
 (?i)beware of (scammers|lurers)
 (?i).*?(is|are).*?(a )?known (scammer|lurer)(s)?
 (?i)(i saw you|is a known|asks you to).*?(scam(mer)?|lure(r)?)
+
 
 (?# Trading and selling)
 (?i)^trading up .*?
@@ -96,6 +99,7 @@ trade.*?accepted.*?with.*?for
 (?i)tumeken.*?let(\'?)s trade
 (?i)Buying rares.*?serious buyer
 (?i)Paying.*?valuable gear
+
 
 (?# Buying specific items)
 (?# Armour sets)
@@ -135,6 +139,7 @@ trade.*?accepted.*?with.*?for
 (?i)(Ely|tumeken|tbow|twisted bow|twisted).*?(buy|buyer|sell|seller).*?ready.*
 (?i)valuable gear.*?junk.*
 
+
 (?# Giveaways and events)
 (?i)quitting? .*? giving \d+ percent.*? (1|one) trade
 (?i)quitting.*?\d{2} percent of what you show
@@ -155,6 +160,7 @@ trade.*?accepted.*?with.*?for
 (?i)(?=.*?giveaway.*?).*?message.*?enter
 (?i)quitting\s*search\s*[0o]n\s*y[o0]utub[3e]
 (?i)quitting\s*giveaway.*y[o0]utub[3e]
+
 
 (?# Promotions and advertisements)
 (?i)(best|come play).*?rsps
@@ -202,6 +208,7 @@ trade.*?accepted.*?with.*?for
 (?i)help.*?on.*?(Quiver|torva|inferno).*?we.*?
 (?i)on.*?gold.*?rates.*
 (?i)positive reviews.*?customers.*?
+(?i).*C O M
 
 
 (?# Specific adverts)
@@ -303,6 +310,7 @@ trade.*?accepted.*?with.*?for
 (?i)martyos
 (?i)flygp
 (?i)scapehub
+(?i)zukrs
 
 
 (?# Miscellaneous)
