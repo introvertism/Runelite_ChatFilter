@@ -311,6 +311,8 @@ trade.*?accepted.*?with.*?for
 (?i)flygp
 (?i)scapehub
 (?i)zukrs
+(?i)I.*K.*O.*(¥|Y|V).*R.*S.*P.*S
+(?i)E.*L.*K.*O.*(¥|Y|V).*R.*S.*P.*S
 
 
 (?# Miscellaneous)
