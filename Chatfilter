@@ -315,6 +315,7 @@ trade.*?accepted.*?with.*?for
 (?i)I.*K.*O.*(¥|Y|V).*R.*S.*P.*S
 (?i)E.*L.*K.*O.*(¥|Y|V).*R.*S.*P.*S
 (?)ikov
+(?i)Its got that old school vibe but faster paced
 
 
 (?# Miscellaneous)
