@@ -314,8 +314,9 @@ trade.*?accepted.*?with.*?for
 (?i)myinfernal
 (?i)I.*K.*O.*(¥|Y|V).*R.*S.*P.*S
 (?i)E.*L.*K.*O.*(¥|Y|V).*R.*S.*P.*S
-(?)ikov
+(?i)ikov
 (?i)Its got that old school vibe but faster paced
+(?i)ic hall2
 
 
 (?# Miscellaneous)
