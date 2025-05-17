@@ -329,6 +329,10 @@ trade.*?accepted.*?with.*?for
 (?i)^ik-$
 (?i)^.*-(o|0)v$
 (?i)($|s)take(o|0)($|s)r($|s)
+(?i)Lucif3r416
+(?i)soulsplit
+(?i)new content added
+(?i)raids.*pvp.*skilling.*community
 
 
 (?# Miscellaneous)
