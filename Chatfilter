@@ -333,6 +333,10 @@ trade.*?accepted.*?with.*?for
 (?i)soulsplit
 (?i)new content added
 (?i)raids.*pvp.*skilling.*community
+(?i).*S T E (L|I|1) (L|I|1) A
+(?i).*P (O|0) G
+(?i).*O N L (I|Y|1)
+(?i).*F A N
 
 
 (?# Miscellaneous)
