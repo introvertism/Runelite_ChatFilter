@@ -345,6 +345,7 @@ trade.*?accepted.*?with.*?for
 (?i)(to|play|join|on|ing) i( *)?k( *)?o( *)?v( *)?
 (?i)w(o|0)r(I|1|l)d\s?3(o|0)2$
 (?i)(l|1|I)c(e|3)\s?w(o|0)r(I|1|l)d$
+(?i)enjoy horse racing
 
 
 (?# Miscellaneous)
