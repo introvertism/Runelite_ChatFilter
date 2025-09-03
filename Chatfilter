@@ -52,6 +52,7 @@ trade.*?accepted.*?with.*?for
 (?i)(?=(\d+[gkmb].*?\d+[gkmb])).*?\[\].*?
 (?i).*?\{\}.*?casino
 (?i).*?\{\}.*?(\d+[gkmb].*?\d+[gkmb])
+(?i).*?best.*?minigame.*?in.*?g(ie|ei)linor
 
 
 (?# Doubling money and scams)
@@ -346,6 +347,7 @@ trade.*?accepted.*?with.*?for
 (?i)w(o|0)r(I|1|l)d\s?3(o|0)2$
 (?i)(l|1|I)c(e|3)\s?w(o|0)r(I|1|l)d$
 (?i)enjoy horse racing
+(?i)ste(l|1|i)(l|1|i)ahaven
 
 
 (?# Miscellaneous)
